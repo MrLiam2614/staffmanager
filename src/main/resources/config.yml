@@ -1,0 +1,16 @@
+Menu:
+  servers:
+    global:
+      item: DIAMOND_BLOCK
+      name: "&6&lGLOBAL"
+  roles:
+    Developer:
+      item: REDSTONE_BLOCK
+      name: "&c&lDeveloper"
+Staff:
+  liam2614:
+    role: Developer
+    server: global
+  TheLoreh:
+    role: Developer
+    server: global

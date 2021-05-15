@@ -1,0 +1,3 @@
+  name: StaffManager
+  main: com.saam.staffmanager.StaffManager
+  version: 1.0
