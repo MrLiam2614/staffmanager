@@ -1,3 +1,11 @@
   name: StaffManager
   main: com.saam.staffmanager.StaffManager
   version: 1.0
+  commands:
+    staff:
+      description: Open staff GUI
+      permission: staffmanager.user
+    staffmanager:
+      description: Manage staff GUI
+      permission: staffmanager.admin
+      aliases: sm

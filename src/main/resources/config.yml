@@ -1,16 +1,37 @@
+##Keep default menu for only /staff command!
+default_menu: "default"
 Menu:
+  default:
+    name: "&6&lDefault"
+    rows: 1
   servers:
+    name: "&a&lServers"
+    rows: 1
+    slot: 3
+    item: NETHER_STAR
     global:
+      slot: 0
+      rows: 5
       item: DIAMOND_BLOCK
       name: "&6&lGLOBAL"
   roles:
+    name: "&b&lRoles"
+    rows: 1
+    slot: 5
+    item: DIAMOND_HELMET
     Developer:
+      slot: 0
+      rows: 5
       item: REDSTONE_BLOCK
       name: "&c&lDeveloper"
 Staff:
   liam2614:
     role: Developer
     server: global
+    roleSlot: 3
+    serverSlot: 3
   TheLoreh:
     role: Developer
     server: global
+    roleSlot: 5
+    serverSlot: 5
